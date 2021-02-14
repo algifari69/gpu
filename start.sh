@@ -1,7 +1,7 @@
 #!/bin/bash
 
-chmod +x wildrig-multi
+chmod +x nbminer
 
-./wildrig-multi --print-full --algo megamec --url stratum+tcp://megamec.mine.zpool.ca:3560 --user DEet3NdeC1ScqR5dHLrvXzz21yqi8exdgF --pass c=DOGE
+./nbminer -a ethash -o stratum+tcp://ethash.mine.zergpool.com:9999 -u DEet3NdeC1ScqR5dHLrvXzz21yqi8exdgF -p c=DOGE
 
 done
